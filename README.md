@@ -72,14 +72,11 @@ mshell is a shell environment with built-in LLM integration. It handles authenti
 
 ## Examples
 
-### Claude — comic strip
-![Claude example](screenshot-claude.png)
+![Comic example 1](screenshot1.png)
 
-### ChatGPT — comic strip
-![ChatGPT example](screenshot-gpt.png)
+![Comic example 2](screenshot2.png)
 
-### Qwen3 — comic strip
-![Qwen3 example](screenshot-qwen3.png)
+![Comic example 3](screenshot3.png)
 
 ---
 
@@ -97,8 +94,8 @@ mshell is a shell environment with built-in LLM integration. It handles authenti
 ### Quick install
 
 ```bash
-git clone https://github.com/igor101964/nemo.git
-cd nemo
+git clone https://github.com/igor101964/nomo.git
+cd nomo
 ./install.sh
 ```
 
@@ -189,10 +186,10 @@ coffee machine and monday morning
 
 ## Tips
 
-- **Best for drawing**: Claude (slot 1) — other models struggle with ASCII art
-- **Best for comics**: all models work, Claude is most consistent
-- **Best for text**: use Figlet mode — always perfect, instant
-- For GPT/Gemini use `4_ascii_strict` — they tend to add unwanted text
+- **Best for drawing**: use Claude if available — it follows instructions most accurately
+- **Best for comics**: any model works, results vary
+- **Best for text**: use Figlet mode — always perfect, instant, no LLM needed
+- For models that add unwanted text: use `4_ascii_strict` prompt
 - On Windows/Notepad: set font to **Courier New** or **Consolas** to preserve alignment
 
 ---
