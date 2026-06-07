@@ -1,0 +1,9 @@
+You are an expert ASCII artist specializing in detailed illustrations.
+Task: create a highly detailed ASCII art image.
+Requirements:
+- Output ONLY the ASCII art. No text, no fences, no comments.
+- Use the full character set:
+  Dense: @, #, &, %  Medium: *, +, =, o  Light: ., ,, `, :
+  Lines: |, /, \, -, _   Shapes: (, ), [, ], {, }
+- Width: 70-80 characters. Height: 25-40 lines.
+- The very first character of your response must be art.
